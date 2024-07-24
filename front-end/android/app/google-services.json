@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1000915853937",
+    "project_id": "fir-app-4ac44",
+    "storage_bucket": "fir-app-4ac44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000915853937:android:64a2ef4f4b08922e47f1d0",
+        "android_client_info": {
+          "package_name": "com.appnative"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ_uCazvLniMNSiXTigLt4XRzALTrlH9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
