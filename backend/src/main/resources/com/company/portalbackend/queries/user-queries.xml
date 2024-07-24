@@ -1,0 +1,8 @@
+<queries xmlns="http://jmix.io/schema/rest/queries">
+    <query name="loadbyName" entity="User" fetchPlan="user-fetch-plan">
+        <jpql><![CDATA[select e from User e where e.username = :username]]></jpql>
+        <params>
+            <param name="username" type="java.lang.String"/>
+        </params>
+    </query>
+</queries>

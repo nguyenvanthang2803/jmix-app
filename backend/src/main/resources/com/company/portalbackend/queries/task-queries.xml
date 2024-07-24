@@ -1,0 +1,12 @@
+<queries xmlns="http://jmix.io/schema/rest/queries">
+    <query name="listTask" entity="Task_" fetchPlan="task-fetch-plan">
+        <jpql><![CDATA[select e from Task_ e]]>
+        </jpql>
+        <params>
+            <param name="offset" type="java.lang.Integer"/>
+            <param name="limit" type="java.lang.Integer"/>
+        </params>
+
+    </query>
+
+</queries>
